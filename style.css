@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  font-size: 1.2vw;
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:hsl(218deg 100% 95%);
+  width: 100vw;
+}
+.container {
+    /* border: 2px solid red; */
+    width: 50vw;
+    height: 62vh;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 24px #afafaf;
+}
+.top {
+  /* border: 2px solid black; */
+  height: 25vh;
+  padding-top: 2vw;
+  padding-left: 2vw;
+  background-color: white;
+}
+.head {
+  color: hsl(179, 62%, 43%);
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+.mid {
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+  margin-top: 2vh;
+}
+.para {
+  color: hsl(218, 22%, 67%);
+  width: 36vw;
+  margin-top: 2vh;
+  line-height: 3vh;
+}
+.bottom{
+    display: flex;
+}
+.left{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    height: 25vh;
+    width: 60vw;
+    padding: 2.5vw;
+    padding-top: 2vw;
+}
+.right{
+    background-color: #2fc3c0;
+    color: white;
+    height: 25vh;
+    width: 60vw;
+    padding: 2.5vw;
+    padding-top: 2vw;
+    
+}
+#month{
+    font-size: 1.8vw;
+    word-spacing: 0.8vw;
+
+}
+.flx{
+    display: flex;
+    margin-top: 2vh;
+}
+#amt{
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+#per{
+        margin-left: 0.6vw;
+        color:  hsl(204, 43%, 93%);
+        justify-self: center;
+        align-self: center;
+}
+
+#pr{
+    margin-top: 2vh;
+}
+.sign{
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    justify-self: center;
+    width: 15vw;
+    box-shadow: 0px 0px 10px #3232326e;
+    margin-top: 2vw;
+    padding: 1vw;
+    border-radius: 7px;
+    align-self: center;
+}
+#r-head{
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+#r-para{
+    color: hsl(204, 43%, 93%);
+    margin-top: 1vh;
+
+}
+#r-para>div{
+    margin-top: 0.3vh;
+}
+#p1{
+    margin-top: 2vh;
+ }
+  @media screen and (min-width:320px) {
+    .container{
+        height: 88vh;
+        display: flex;
+        width: 88vw;
+        flex-direction: column;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    .top{
+        padding: 5vw;
+    }
+    .head{
+        font-size: 7vw;
+
+    }
+    .mid{
+        font-size: 5vw;
+    }
+    .para{
+        font-size: 3vw;
+        width: 80vw;
+    }
+    .left{
+        width: 88vw;
+    }
+    .right{
+        width: 88vw;
+        height: 50vh;
+    }
+    
+    #month{
+        font-size: 5vw;
+        font-weight: 700;
+    }
+    #amt{
+        font-size: 8vw;
+    }
+    #per{
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
+    #pr{
+        font-size: 4vw;
+    }
+    .sign{
+        width: 74vw;
+        font-size: 39vw;
+        border-radius: 4px;
+        padding: 3vw
+    }
+    #sign{
+        font-size: 4vw;
+        font-weight: 700;
+        
+    }
+    #r-head{
+        margin-top: 2vh;
+        font-size: 4vw;
+
+    }
+    #r-para>div{
+         font-size: 4vw;
+    }
+
+} 
+ @media screen and (min-width:500px) {
+    .container{
+        height: 88vh;
+        display: flex;
+        width: 88vw;
+        flex-direction: column;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    .top{
+        padding: 5vw;
+    }
+    .head{
+        font-size: 4vw;
+
+    }
+    .mid{
+        font-size: 3vw;
+    }
+    .para{
+        font-size: 2vw;
+        width: 80vw;
+    }
+    .left{
+        width: 88vw;
+    }
+    .right{
+        width: 88vw;
+        height: 50vh;
+    }
+
+    #month{
+        font-size: 3vw;
+        font-weight: 700;
+    }
+    #amt{
+        font-size: 4vw;
+    }
+    #per{
+        font-size: 2vw;
+        margin-left: 2vw;
+    }
+    #pr{
+        font-size: 2vw;
+    }
+    .sign{
+        width: 74vw;
+        font-size: 39vw;
+        border-radius: 4px;
+        padding: 2vw
+    }
+    #sign{
+        font-size: 2vw;
+        font-weight: 700;
+        
+    }
+    #r-head{
+        margin-top: 1vh;
+        font-size: 3vw;
+
+    }
+    #r-para>div{
+         font-size: 2vw;
+    }
+
+}  
+
+@media screen and (min-width:768px) {
+   
+    .container{
+        height: 62vh;
+        display: flex;
+        width: 50vw;
+        flex-direction: column;
+    }
+    .bottom{
+        flex-direction: row;
+    }
+    .top{
+        padding: 2vw;
+    }
+    .head{
+        font-size: 2vw;
+
+    }
+    .mid{
+        font-size: 1.5vw;
+    }
+    .para{
+        font-size: 1vw;
+        width: 34vw;
+    }
+    .left{
+        width: 20vw;
+        height: 60vh;
+    }
+    .right{
+        width: 25vw;
+        height: 60vh;
+    }
+
+    #month{
+        font-size: 1.5vw;
+        font-weight: 700;
+    }
+    #amt{
+        font-size: 2vw;
+    }
+    #per{
+        font-size: 1vw;
+        margin-left: 1vw;
+    }
+    #pr{
+        font-size: 1.2vw;
+    }
+    .sign{
+        width: 20vw;
+        font-size: 2vw;
+        border-radius: 4px;
+        padding: 1vw
+    }
+    #sign{
+        font-size: 1.2vw;
+        font-weight: 700;
+        
+    }
+    #r-head{
+        margin-top: 1vh;
+        font-size: 2vw;
+
+    }
+    #r-para>div{
+         font-size: 1vw;
+    }
+}
